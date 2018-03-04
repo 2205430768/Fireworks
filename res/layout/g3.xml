@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#CDCD00"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <ImageView 
+        android:layout_marginTop="5dip"
+        android:layout_width="100dip"
+        android:layout_height="60dip"
+        android:src="@drawable/hanmei"
+        
+        />
+   
+      <TextView
+        android:padding="20dip"
+         android:layout_weight="1"
+        android:background="@drawable/tx1"
+        android:id="@+id/textView1"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:text="嘿，我看你长得不错，到韩国来逛一圈，保证你回来后更漂亮。" />
+    <ImageView 
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:src="@drawable/tai"
+        />
+      <TextView
+           android:padding="30dip"
+         android:layout_weight="1"
+        android:background="@drawable/tx2"
+        android:id="@+id/textView1"
+        android:textColor="#FF33B5E5"
+        android:layout_width="fill_parent"
+          android:layout_height="0dp"
+        android:textSize="20sp"
+        android:text="那算什么，你来泰国一趟，保证让你想去死的心都有。" />
+      
+ 
+      
+</LinearLayout>
